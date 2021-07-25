@@ -1,0 +1,289 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>TND Inflation Calculator</title>
+  <meta charset="UTF-8">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  
+
+</style>
+<script>
+   
+    
+</script>
+</head>
+
+<body>
+
+<!-- Site navigation menu -->
+<!--<ul class="navbar">
+  <li><a href="index.html">Home page</a>
+  <li><a href="musings.html">Musings</a>
+  <li><a href="town.html">My town</a>
+  <li><a href="links.html">Links</a>
+</ul>*/-->
+
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="#calculator" class="w3-bar-item w3-button w3-theme-l1">Calculator</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+    <a href="#data" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Data</a>
+    
+  </div>
+</div>
+<br><br><a name="calculator"></a><br><br>
+<h1 style="font-weight: bold;"><center>Tunisian Dinar Inflation Calculator</center></h1>
+<br>
+
+<div align="center">
+  <div style="width:100%; margin:5px">
+  <section class="">
+  <div class="smallBox" ">
+                    
+                        <tr style="height:17pt">
+              <td colspan="6" style="height:17pt;"><h2 align="center" style="margin-top:10px"><font color="#000000"><strong>Inflation Calculator</strong></font></h2></td>
+            </tr>
+                      <tr style="height:22pt">
+              <td class="ee111" style="height:22pt;">&nbsp;</td>
+              <td class="ee112" style="height:22pt;">
+                If in  
+              </td>
+              <td class="ee115" style="height:22pt;">
+                <select name="year1" id="year1" style="border:1px solid ; width:20% ; height:50%;padding-right:1px;">
+                  <option value="1984">1984</option>
+                  <option value="1985">1985</option>
+                  <option value="1986">1986</option>
+                  <option value="1987">1987</option>
+                  <option value="1988">1988</option>
+                  <option value="1989">1989</option>
+                  <option value="1990">1990</option>
+                  <option value="1991">1991</option>
+                  <option value="1992">1992</option>
+                  <option value="1993">1993</option>
+                  <option value="1994">1994</option>
+                  <option value="1995">1995</option>
+                  <option value="1996">1996</option>
+                  <option value="1997">1997</option>
+                  <option value="1998">1998</option>
+                  <option value="1999">1999</option>
+                  <option value="2000">2000</option>
+                  <option value="2001">2001</option>
+                  <option value="2002">2002</option>
+                  <option value="2003">2003</option>
+                  <option value="2004">2004</option>
+                  <option value="2005">2005</option>
+                  <option value="2006">2006</option>
+                  <option value="2007">2007</option>
+                  <option value="2008">2008</option>
+                  <option value="2009">2009</option>
+                  <option value="2010">2010</option>
+                  <option value="2011">2011</option>
+                  <option value="2012">2012</option>
+                  <option value="2013">2013</option>
+                  <option value="2014">2014</option>
+                  <option value="2015">2015</option>
+                  <option value="2016">2016</option>
+                  <option value="2017">2017</option>
+                  <option value="2018">2018</option>
+                  <option value="2019">2019</option>
+                  <option value="2020">2020</option>
+                  <option value="2021">2021</option>
+                 
+                </select>
+              </td>
+              
+              <td class="ee118" style="height:22pt;">&nbsp;</td>
+            </tr>
+                      <tr style="height:22pt">
+              <td class="ee111" style="height:22pt;">&nbsp;</td>
+              <td class="ee112" style="height:22pt;" colspan="2">
+                I purchased an item for 
+              </td>
+              <td class="ee112" style="height:22pt;">&nbsp;</td>
+              <td class="ee115" style="height:22pt;">
+                <input type="number" min="1" id="amount" value="1" name="fname" style="border:1px solid ; width:10% ; height:50%;padding-right:1px;">
+               
+              </td>
+              <td class="ee118" style="height:22pt;">&nbsp;</td>
+            </tr>
+                      <tr style="height:22pt">
+              <td class="ee111" style="height:22pt;">&nbsp;</td>
+              <td class="ee112" style="height:22pt;">
+                then in
+              </td>
+              <td class="ee115" style="height:22pt;">
+                <select name="year2" id="year2" style="border:1px solid ; width:20% ; height:50%;padding-right:1px;">
+                  <option value="1984">1984</option>
+                  <option value="1985">1985</option>
+                  <option value="1986">1986</option>
+                  <option value="1987">1987</option>
+                  <option value="1988">1988</option>
+                  <option value="1989">1989</option>
+                  <option value="1990">1990</option>
+                  <option value="1991">1991</option>
+                  <option value="1992">1992</option>
+                  <option value="1993">1993</option>
+                  <option value="1994">1994</option>
+                  <option value="1995">1995</option>
+                  <option value="1996">1996</option>
+                  <option value="1997">1997</option>
+                  <option value="1998">1998</option>
+                  <option value="1999">1999</option>
+                  <option value="2000">2000</option>
+                  <option value="2001">2001</option>
+                  <option value="2002">2002</option>
+                  <option value="2003">2003</option>
+                  <option value="2004">2004</option>
+                  <option value="2005">2005</option>
+                  <option value="2006">2006</option>
+                  <option value="2007">2007</option>
+                  <option value="2008">2008</option>
+                  <option value="2009">2009</option>
+                  <option value="2010">2010</option>
+                  <option value="2011">2011</option>
+                  <option value="2012">2012</option>
+                  <option value="2013">2013</option>
+                  <option value="2014">2014</option>
+                  <option value="2015">2015</option>
+                  <option value="2016">2016</option>
+                  <option value="2017">2017</option>
+                  <option value="2018">2018</option>
+                  <option value="2019">2019</option>
+                  <option value="2020">2020</option>
+                  <option value="2021" selected>2021</option>
+                </select>
+              </td>
+              
+              <td class="ee118" style="height:22pt;">&nbsp;</td>
+            </tr>
+                      <tr style="height:22pt">
+              <td class="ee111" style="height:22pt;">&nbsp;</td>
+              <br>
+              <td class="ee122" style="height:22pt;" colspan="3">
+                that same <font class="ee125"><strong> item would cost</strong></font><font class="ee126">:</font>
+              </td>
+              <td class="ee127" style="height:22pt;">
+                <span id = "result">-</span>
+                <span id = "result"> TND</span>
+              </td>
+              <td class="ee118" style="height:22pt;">&nbsp;</td>
+            </tr>
+                      <tr style="height:22pt">
+              <td class="ee111" style="height:22pt;">&nbsp;</td>
+              <td class="ee122" style="height:22pt;" colspan="3">
+                Cumulative rate of inflation:
+              </td>
+              <td class="ee127" style="height:22pt;">
+                <span id = "rate">-</span>
+                <span>%</span>
+              </td>
+              <td class="ee118" style="height:22pt;">&nbsp;</td>
+            </tr>
+                      <tr style="height:20pt">
+              <td class="ee111" style="height:20pt;">&nbsp;</td>
+              <td class="ee130" style="height:20pt;" colspan="4">
+  <div class="btn btn-primary btn-xs">   <button type="button" onClick="multiplyBy()">Calculate</button></div>
+              </td>
+              <td class="ee118" style="height:20pt;">&nbsp;</td>
+            </tr>
+                      <tr style="height:8pt">
+              <td class="ee131" style="height:8pt;"><div style="overflow:hidden"></div></td>
+              <td class="ee132" style="height:8pt;"><div style="overflow:hidden"></div></td>
+              <td class="ee132" style="height:8pt;"><div style="overflow:hidden"></div></td>
+              <td class="ee132" style="height:8pt;"><div style="overflow:hidden"></div></td>
+              <td class="ee132" style="height:8pt;"><div style="overflow:hidden"></div></td>
+              <td class="ee133" style="height:8pt;"><div style="overflow:hidden"></div></td>
+            </tr>
+          </div>
+            </section></div></div>
+<!-- Sidebar -->
+
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" >
+  <a name="about">
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h2 class="title">What is this?</h2>
+      <p>This Tunisian Dinar Inflation Calculator measures the buying power of the Tunisian dinar over time. To use it, just enter any two dates from 1984 to 2021, an amount, and then click 'Calculate'.
+
+      </p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+      
+    </div>
+  </div>
+  <div class="w3-twothird w3-container">
+  <h2 class="title">What is inflation?</h2>
+<p>Inflation is described as continuously rising prices, or the continuous fall in value of the dollar..</p>
+<h2 class="title">What is core inflation?</h2>
+<p>Core inflation is a measure of inflation that excludes certain items known for their volatility, like food and energy prices.</a>.</p>
+<h2 class="title">What is deflation?</h2>
+<p>Deflation is the opposite of inflation &#8212; a continuous decrease in prices, or continue rise in the dollar&#8217;s value. During the Great Depression, Americans experience deflation at its worst. Prices plunged, and no one had money to spend, hire, build or do much of anything.</p>
+<p>Deflation often reduces demand since consumer spending on good and services are greatly reduced. That in turn, can lead to increasing unemployment. </a>.</p>
+<h2 class="title">What is disinflation?</h2>
+<p>Disinflation is a slowing of the inflation rate over a period of time. For example, if the inflation rate was 1.3% in one month and moved to 1.2% in the next, this could be described as a period of disinflation.</p>
+<p>Deflation and disinflation are often confused. In the example, prices still went up in the second month by 1.2%. For deflation, the rate of inflation must actually drop to below 0%. If the inflation rate was very low to begin with, disinflation can lead to deflation. </a>.</p>
+<h2 class="title">What is hyperinflation?</h2>
+<p>Very simply, hyperinflation is runaway inflation or inflation that is &quot;out of control.&quot; The definition used by most economists is &quot;an inflationary cycle without any tendency toward equilibrium.&quot;</p>
+<p>Zimbabwe&#8217;s 2008 economy is a recent example of hyperinflation. In July of 2008, $100 billion banknotes were introduced in an effort to combat severe money shortages. While huge in face value, a single note was still not enough to buy one loaf of bread. </a>.</p>
+<h2 class="title">What is stagflation?</h2>
+<p>Stagflation is a period of time when inflation is high, economic growth is weak, and unemployment is high.</a>.</p>
+<h2 class="title">What is a recession?</h2>
+<p>In the most simplistic terms, a recession happens when a country experiences negative growth over a period of time. Generally, an &quot;official&quot; recession occurs when a country&#8217;s Gross Domestic Product (GDP) declines for two or more consecutive quarters</p>
+<h2 class="title">What is a depression?</h2>
+<p>A depression occurs when a country experiences negative growth over an extended period of time, usually years.</p></div>
+
+  <div class="w3-row">
+    
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+    </div>
+  </div>
+  <a name="data"></a>
+  <br>
+  <br>
+  <div class="tablescroller"><table id="customers"><tbody><tr><th>Year</th><th>Tunisia</th><th>Ø USA</th><th>Ø World</th></tr><tr><td>2020</td><td>5.63 %</td><td>1.23 %</td><td>1.94 %</td></tr><tr><td>2019</td><td>6.72 %</td><td>1.81 %</td><td>2.15 %</td></tr><tr><td>2018</td><td>7.31 %</td><td>2.44 %</td><td>2.42 %</td></tr><tr><td>2017</td><td>5.31 %</td><td>2.13 %</td><td>2.18 %</td></tr><tr><td>2016</td><td>3.63 %</td><td>1.26 %</td><td>1.49 %</td></tr><tr><td>2015</td><td>4.44 %</td><td>0.12 %</td><td>1.43 %</td></tr><tr><td>2014</td><td>4.63 %</td><td>1.62 %</td><td>2.35 %</td></tr><tr><td>2013</td><td>5.32 %</td><td>1.46 %</td><td>2.61 %</td></tr><tr><td>2012</td><td>4.61 %</td><td>2.07 %</td><td>3.73 %</td></tr><tr><td>2011</td><td>3.24 %</td><td>3.16 %</td><td>4.82 %</td></tr><tr><td>2010</td><td>3.34 %</td><td>1.64 %</td><td>3.33 %</td></tr><tr><td>2009</td><td>3.66 %</td><td>-0.36 %</td><td>2.94 %</td></tr><tr><td>2008</td><td>4.35 %</td><td>3.84 %</td><td>8.90 %</td></tr><tr><td>2007</td><td>2.97 %</td><td>2.85 %</td><td>4.83 %</td></tr><tr><td>2006</td><td>3.23 %</td><td>3.23 %</td><td>4.22 %</td></tr><tr><td>2005</td><td>2.02 %</td><td>3.39 %</td><td>4.08 %</td></tr><tr><td>2004</td><td>3.63 %</td><td>2.68 %</td><td>3.36 %</td></tr><tr><td>2003</td><td>2.71 %</td><td>2.27 %</td><td>3.03 %</td></tr><tr><td>2002</td><td>2.72 %</td><td>1.59 %</td><td>2.83 %</td></tr><tr><td>2001</td><td>1.98 %</td><td>2.83 %</td><td>3.84 %</td></tr><tr><td>2000</td><td>2.96 %</td><td>3.38 %</td><td>3.43 %</td></tr><tr><td>1999</td><td>2.69 %</td><td>2.19 %</td><td>3.16 %</td></tr><tr><td>1998</td><td>3.13 %</td><td>1.55 %</td><td>5.19 %</td></tr><tr><td>1997</td><td>3.65 %</td><td>2.34 %</td><td>5.42 %</td></tr><tr><td>1996</td><td>3.73 %</td><td>2.93 %</td><td>6.68 %</td></tr><tr><td>1995</td><td>6.24 %</td><td>2.81 %</td><td>9.08 %</td></tr><tr><td>1994</td><td>4.73 %</td><td>2.61 %</td><td>10.32 %</td></tr><tr><td>1993</td><td>3.97 %</td><td>2.95 %</td><td>6.78 %</td></tr><tr><td>1992</td><td>5.82 %</td><td>3.03 %</td><td>7.54 %</td></tr><tr><td>1991</td><td>8.19 %</td><td>4.23 %</td><td>8.97 %</td></tr><tr><td>1990</td><td>6.55 %</td><td>5.40 %</td><td>8.13 %</td></tr><tr><td>1989</td><td>7.74 %</td><td>4.83 %</td><td>7.00 %</td></tr><tr><td>1988</td><td>7.20 %</td><td>4.08 %</td><td>7.15 %</td></tr><tr><td>1987</td><td>8.23 %</td><td>3.66 %</td><td>5.66 %</td></tr><tr><td>1986</td><td>6.16 %</td><td>1.90 %</td><td>5.78 %</td></tr><tr><td>1985</td><td>7.25 %</td><td>3.55 %</td><td>6.81 %</td></tr><tr><td>1984</td><td>8.90 %</td><td>4.30 %</td><td>8.22 %</td></tr></tbody></table></div>
+
+  <div class="w3-row w3-padding-64">
+    
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+ 
+  
+  
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+      <h4>Footer</h4>
+    </div>
+
+    
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+
+
+
+
+</body>
+</html>
