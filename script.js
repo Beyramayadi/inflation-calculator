@@ -23,6 +23,7 @@ function multiplyBy()
         rate = ((amount / x)*100 )-100;
         rate = rate.toFixed(3);
         document.getElementById("rate").innerHTML = rate;
+        document.getElementById("error").innerHTML = "";
         
 
         }
@@ -36,10 +37,12 @@ function multiplyBy()
           rate = rate.toFixed(3);
        
           document.getElementById("rate").innerHTML = rate;
+          document.getElementById("error").innerHTML = "";
         }
       else { document.getElementById("result").innerHTML = amount;
-      document.getElementById("rate").innerHTML = 0;}}
-      else document.getElementById("error").innerHTML = "Value must be positive"
+      document.getElementById("rate").innerHTML = 0;
+      document.getElementById("error").innerHTML = "";}}
+      else {document.getElementById("error").innerHTML = "Value must be positive";}
       //  rate = ((amount / x)*100 )-100;
        
       //  document.getElementById("rate").innerHTML = rate;
